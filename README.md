@@ -2,7 +2,7 @@
 2. git add [files] - добавляет файлы в stage (подготовка к записи)
 3. git commit -m "comment" - делает локальную запись
 4. git log - показывает подробную информацию о записях (commit'ах)
-5. git log --oneline - показывает краткую информацию о  commit'ах
+5. git log --oneline - показывает краткую информацию о commit'ах
 6. git push [rep_link] [branch_name] - отправление файлов в репозиторий
 
 git push origin master
@@ -15,3 +15,7 @@ git push origin master
 11. git branch [название новой ветки] - создание новой ветки
 12. git checkout [название новой ветки] - переключение на другую ветку
 13. git remote -v - посмотреть ссылку на репозиторий
+14. git pull [rep_link] [branch_name] - переносит данные с ветки на ветку, после слияния из GitHub в VS Code
+
+15. git branch -d [branch_name] - удаление ветки из VS Code
+16. git merge - слияние веток
