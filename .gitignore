@@ -1,0 +1,7 @@
+Не хотим отправлять данные файлы и папки в GitHub:
+
+build
+
+node.modules
+
+.env
